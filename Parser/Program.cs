@@ -13,7 +13,11 @@ string? _connectionString = @"Server=(localdb)\MSSQLLocalDB;Database=Parse;Trust
 // Read a JSON file from the web and parse it into a C# object
 string url = "https://microsoftedge.github.io/Demos/json-dummy-data/64KB.json";
 
-// These are environment variables that are set in the "launchSettings.json" file in "Properties" folder.
+/* These are environment variables that are set in the "launchSettings.json" file in "Properties" folder.
+ * DOTNET_ENVIRONMENT - set to "Development" or "Production" to determine how much information is displayed in the console if there is an exception when running the application.
+ * TESTBREAK - set to "True" to cause a test exception to be thrown when downloading the JSON file, otherwise should be set to "False" for normal operation.
+ */
+
 string? _environment = Environment.GetEnvironmentVariable("DOTNET_ENVIRONMENT") ?? "Production";
 string? _testbreak = Environment.GetEnvironmentVariable("TESTBREAK") ?? "False";
 try
