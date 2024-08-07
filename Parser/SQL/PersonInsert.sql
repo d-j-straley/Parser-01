@@ -29,7 +29,7 @@ BEGIN
 
 INSERT INTO [dbo].[Person]
            ([name]
-           ,[languarge]
+           ,[language]
            ,[id]
            ,[bio]
            ,[version]

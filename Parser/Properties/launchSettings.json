@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Parser": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Production", // set to "Development" or "Production",
+        "TESTBREAK": "False" // set to "True" to Throw an excepton (testing purposes only) otherwise "False" to run normally
+      }
+    }
+  }
+}

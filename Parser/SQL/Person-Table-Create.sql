@@ -11,7 +11,7 @@ GO
 CREATE TABLE [dbo].[Person](
 	[RecordID] [int] IDENTITY(1,1) NOT NULL,
 	[name] [nvarchar](200) NULL,
-	[languarge] [nvarchar](100) NULL,
+	[language] [nvarchar](100) NULL,
 	[id] [nvarchar](100) NULL,
 	[bio] [nvarchar](max) NULL,
 	[version] [float] NULL,
