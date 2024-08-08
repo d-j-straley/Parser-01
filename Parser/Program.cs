@@ -1,6 +1,6 @@
-﻿// copyright 2024  David James Straley
-// This code may be used in accordance with the licensing file which is specifed
-// in this project's repository at the Github account of "d-j-straley"
+﻿/*
+© 2024  David James Straley
+*/
 
 using Parser;
 using Newtonsoft.Json;
