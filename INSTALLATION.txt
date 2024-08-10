@@ -1,0 +1,7 @@
+Before the application can run on your machine, you will have to do the following:
+
+1.)	Create a new “database” on a SQL Server installation to which you have access.
+2.)	Modify the database connection string which this application uses so as to access SQL Server.  The string is located near the top of the “program.cs” file.  Currently it is set to use my local SQL Server installation; you will need to change it to use yours.  My SQL Server installation will be unreachable to you.
+3.)	You will then have to run the SQL Script files which are located in the SQL directory of this project.  These will create the required SQL Server table and stored procedures.
+
+The above steps are only necessary one time; after that the application should work just by running it.
